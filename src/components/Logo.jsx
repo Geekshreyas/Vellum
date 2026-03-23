@@ -2,7 +2,7 @@ import React from 'react';
 
 function Logo({ width = '100px', className = "" }) {
  
-  const imageUrl = "https://fra.cloud.appwrite.io/v1/storage/buckets/69aead79002af431d48d/files/69c05a81001e02c79e59/view?project=69aea90400004bd8f717";
+  const imageUrl = "https://fra.cloud.appwrite.io/v1/storage/buckets/69aead79002af431d48d/files/69c16e450033c82e5431/view?project=69aea90400004bd8f717";
 
   return (
     <img 
