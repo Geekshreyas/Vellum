@@ -1,5 +1,6 @@
 import conf from "/src/conf/conf.js";
-import { ID, Client, Databases, Storage, Query } from "/node_modules/.vite/deps/appwrite.js?v=cbf37a0c";
+
+import { Client, Databases, Storage, Query, ID } from "appwrite";
 
 export class Service { 
     client = new Client();
