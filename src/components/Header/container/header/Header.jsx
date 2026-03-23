@@ -41,10 +41,16 @@ function Header() {
             <Container>
                 <nav className="flex items-center justify-between py-3">
                     
-                    
+                   
                     <div className="flex-shrink-0 mr-4">
-                        <Link to="/" className="block transition-transform duration-200 hover:scale-105 outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 rounded-2xl">
+                        <Link 
+                            to="/" 
+                            className="flex items-center gap-3 transition-transform duration-200 hover:scale-105 outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 rounded-xl"
+                        >
                             <Logo width="50px" />
+                            <span className="text-xl font-bold tracking-tight text-gray-900">
+                                Vellum
+                            </span>
                         </Link>
                     </div>
 
@@ -66,7 +72,6 @@ function Header() {
                         
                         {authStatus && (
                             <li className="ml-1 sm:ml-2">
-                                
                                 <LogoutBtn />
                             </li>
                         )}
